@@ -6,7 +6,51 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(90deg, #000000, #000000 35%, #000000), url(/img/HD-wallpaper-attack-on-titan-poster-digital-2022.jpg);
+    background: linear-gradient(90deg, #000, #000D 35%,#0000), url(./img/HD-wallpaper-attack-on-titan-poster-digital-2022.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+    grid-area: header;
+    height: 500px;
+    width: 2000px;
+}
+
+    .link-container {
+        display: flex;
+        gap: 32px;
+    }
+    
+ a{
+     text-decoration: none;
+     color: white;
+ }
+
+ ul{
+     list-style: none;
+ }
+
+main{
+    background-color: thistle;
+    grid-area: main;
+    height: 2000px;
+    width: 2000px;
+
+}
+
+img{
+    width: 80px;
+}
+footer{
+    background-color: white;
+    grid-area: footer;
+    height: 200px;
+    width: 2000px;
 }
