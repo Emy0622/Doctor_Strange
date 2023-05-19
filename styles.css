@@ -1,12 +1,12 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
-    background: linear-gradient(90deg, #000, #000D 35%,#0000), url(./img/HD-wallpaper-attack-on-titan-poster-digital-2022.jpg);
+    background: linear-gradient(90deg, #000, #000D 35%, #0000), url(./img/HD-wallpaper-attack-on-titan-poster-digital-2022.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -14,8 +14,7 @@ body{
     overflow-x: hidden;
 }
 
-header{
-    background-color: turquoise;
+header {
     display: flex;
     justify-content: space-between;
     grid-area: header;
@@ -23,34 +22,60 @@ header{
     width: 2000px;
 }
 
-    .link-container {
-        display: flex;
-        gap: 32px;
-    }
-    
- a{
-     text-decoration: none;
-     color: white;
- }
+.link-container {
+    display: flex;
+    gap: 32px;
+}
 
- ul{
-     list-style: none;
- }
+a {
+    text-decoration: none;
+    color: white;
+}
 
-main{
-    background-color: thistle;
+ul {
+    list-style: none;
+}
+
+main {
     grid-area: main;
     height: 2000px;
     width: 2000px;
-
+    padding-left: 50px;
 }
 
-img{
-    width: 80px;
+img {
+    width: 500px;
 }
-footer{
-    background-color: white;
+
+footer {
     grid-area: footer;
     height: 200px;
     width: 2000px;
+}
+
+.Home {
+    font-size: 25px;
+    color: white;
+}
+
+.Personagens {
+    font-size: 25px;
+    color: white;
+}
+
+.Vídeos {
+    font-size: 25px;
+    color: white;
+}
+
+.Sinopse {
+    color: white;
+    font-size: 45px;
+    background-color: rgba(83, 83, 81, 0.226);
+    width: 50%;
+    padding-top: 5px;
+}
+
+.logo {
+    padding-left: 50px;
 }
